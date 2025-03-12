@@ -85,21 +85,38 @@ p, a {
 
 /* header section */
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
     width: 100%;
     height: 100vh;
-    background-image: url('../img/home-header.jpg');
+    background-image: url('../img/menu-header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color:rgb(225, 239, 230);
-    background:rgb(0, 4, 17) ;
-    background-color:rgb(0, 4, 17, .8) ;
+}
+header nav div {
+    display: flex;
+    gap: 10px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+.social-links{
+    display: flex;
+    justify-content: center;
 }
 
 /* spacers */
 .spacer {
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     background-color: rgb(0, 4, 17);
 }
 .spacer-sm {
@@ -110,12 +127,15 @@ header {
 
 /* gallery section */
 .gallery {
+    margin:auto;
     width: 100%;
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
     color:rgb(225, 239, 230);
     background:rgb(0, 4, 17) ;
+    background-size: cover;
+    background-position: center;
 }
 
 /* about us section */
@@ -125,8 +145,11 @@ header {
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
+    color: white;
+    display:flex;
+    
 }
 
 .about-container {
@@ -154,6 +177,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    color:white;
 }
 
 .contact-container {
@@ -199,9 +223,9 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
-    color:rgb(225, 239, 230);
+    color:black;
     background:rgb(0, 4, 17) ;
-    background-color:rgb(0, 4, 17, .8) ;
+    background-color: black;
 }
 
 /* mobile media query */
