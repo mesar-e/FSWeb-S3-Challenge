@@ -111,6 +111,10 @@ header nav a {
     padding: 10px;
     
 }
+.social-links{
+    display: flex;
+    justify-content: center;
+}
 
 /* spacer */
 .spacer {
