@@ -223,11 +223,20 @@ a:hover {
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
-    color:black;
-    background:rgb(0, 4, 17) ;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+footer .join-us{
+    width: 30%;
+
+}
+footer .footer-right{
+    width: 60%;
     background-color: black;
 }
 
