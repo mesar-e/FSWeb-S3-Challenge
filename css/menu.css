@@ -210,6 +210,9 @@ footer .footer-right{
     width: 60%;
     background-color: black;
 }
+.footer-right a:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
 
 /* mobile media query */
 @media (max-width: 428px) {
